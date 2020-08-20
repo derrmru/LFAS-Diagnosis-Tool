@@ -1,6 +1,7 @@
 import React from "react";
 
 const Button = (props) => {
+
     return (
         <button 
                 slot={props.slot} 
@@ -14,9 +15,11 @@ const Button = (props) => {
                     {
                         Object.keys(props.conditionObject).map((x, i) => <div key={i}>
                             <br />
-                            <div onClick={() => props.toggleSetView(props.conditionObject[x])}>
-                                {x}
-                            </div>
+                            <a href='#conditions'>
+                                <div onClick={() => props.toggleSetView(props.conditionObject[x])}>
+                                    {x}
+                                </div>
+                            </a>
                         </div>)}
                 </div>
                 }

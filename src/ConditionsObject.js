@@ -16,7 +16,7 @@ export const bigToeC = {
         description: 
             <>
                 <div className="t-image-border">
-                <img className="title-image" src={require('./2d-images/Ingrowing-Toenail.jpg')} alt="ingrown toenail images" />
+                    <img className="title-image" src={require('./2d-images/Ingrowing-Toenail.jpg')} alt="ingrown toenail images" />
                 </div>
                 <p>Ingrown toenails develop when the sides of the nail cut and pierce into the surrounding skin. This can cause pain, redness, swelling and possibly an infection.</p>
                 <p>Common causes of an ingrown can include damage to the nail following a sports injury, an object dropping on the nail or alternatively inappropriate cutting of the nail.</p>

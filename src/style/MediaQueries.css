@@ -26,6 +26,7 @@
         width: 98%;
         height: 300px;
         margin: 0 0 40px 0;
+        cursor: pointer;
     }
 
     .conditions {

@@ -29,8 +29,9 @@ function App() {
         exposure="0.35"
         alt="A 3D model of a foot and ankle"
         onClick={() => start === false && setStart(true)}
+        onTouchStart={() => start === false && setStart(true)}
       >
-        {start && 
+        {start && //only once user had touched screen, clicked or dragged the view will buttons show
         <>
         <Button 
           slot="hotspot-ankle" 

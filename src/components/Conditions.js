@@ -3,7 +3,7 @@ import '../style/App.css';
 
 const Conditions = (props) => {
     return (
-        <div className="conditions">
+        <div id="conditions" className="conditions">
             <div className="conditions-header">
                 <h1>London Foot & Ankle Surgery</h1>
                 <h2>Conditions</h2>
