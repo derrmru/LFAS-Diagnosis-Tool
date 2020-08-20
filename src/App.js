@@ -2,13 +2,16 @@ import React, { useState } from 'react';
 import Foot from './3d-images/3d-Foot-3.glb';
 import Conditions from './components/Conditions';
 import Button from './components/Button';
-import { ankleC, bigToeC, heelC, achillesC, soleC } from './ConditionArray';
-import './App.css';
+import { openC, ankleC, bigToeC, heelC, achillesC, soleC } from './ConditionsObject';
+import './style/App.css';
+import './style/MediaQueries.css';
 
 function App() {
+  const [start, setStart] = useState(false);
   const [annotation, setAnnotation] = useState("");
-  const [currentView, setCurrentView] = useState(bigToeC["Ingrown Toenail"]);
+  const [currentView, setCurrentView] = useState(openC["Open a Condition"]);
 
+  //Click to set or remove annotation for particular foot area
   const toggleAnnotation = (e) => {
     annotation !== e ? setAnnotation(e) : setAnnotation("");
   }
@@ -18,13 +21,17 @@ function App() {
 
       <model-viewer src={Foot}
         ar
-        auto-rotate camera-controls
+        auto-rotate 
+        controls
+        camera-controls
         background-color="#70BCD1"
         shadow-intensity="1"
         exposure="0.35"
         alt="A 3D model of a foot and ankle"
+        onClick={() => start === false && setStart(true)}
       >
-              
+        {start && 
+        <>
         <Button 
           slot="hotspot-ankle" 
           position="-0.03 0.04 -1.07"
@@ -79,7 +86,8 @@ function App() {
           toggleSetView={(f) => setCurrentView(f)}
           annotation={annotation}
         />
-
+        </>
+        }
       </model-viewer>
 
       <Conditions view={currentView} />

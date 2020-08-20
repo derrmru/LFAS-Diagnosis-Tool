@@ -1,5 +1,15 @@
 import React from "react";
 
+export const openC = {
+    "Open a Condition": {
+        title: "Hi there!",
+        description: 
+        <>
+            <p>Interact with our model and select the area of the foot or ankle you are experiencing symptoms.</p>
+        </>
+    }
+}
+
 export const bigToeC = {
     "Ingrown Toenail": {
         title: "Ingrown Toenail",
