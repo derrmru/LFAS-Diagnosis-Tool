@@ -1,4 +1,5 @@
 import React from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Button = (props) => {
 
@@ -15,11 +16,11 @@ const Button = (props) => {
                     {
                         Object.keys(props.conditionObject).map((x, i) => <div key={i}>
                             <br />
-                            <a href='#conditions'>
+                            <AnchorLink href='#conditions'>
                                 <div onClick={() => props.toggleSetView(props.conditionObject[x])}>
                                     {x}
                                 </div>
-                            </a>
+                            </AnchorLink>
                         </div>)}
                 </div>
                 }

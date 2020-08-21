@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Foot from './3d-images/3d-Foot-3.glb';
+import Header from './components/Header';
 import Conditions from './components/Conditions';
 import Button from './components/Button';
+import Chevron from './components/Chevron';
 import { openC, ankleC, bigToeC, heelC, achillesC, soleC } from './objects/ConditionsObject';
 import './style/App.css';
 import './style/MediaQueries.css';
@@ -10,19 +12,34 @@ function App() {
   const [start, setStart] = useState(false);
   const [annotation, setAnnotation] = useState("");
   const [currentView, setCurrentView] = useState(openC["Open a Condition"]);
+  const [showChevron, setShowChevron] = useState(false);
 
   //Click to set or remove annotation for particular foot area
   const toggleAnnotation = (e) => {
     annotation !== e ? setAnnotation(e) : setAnnotation("");
   }
 
+  //add navigate to top chevron button
+  useEffect(() => {
+    let windowWidth = window.innerWidth;
+    window.addEventListener("scroll", (e) => {
+      let scrollPosition = window.scrollY;
+      if (windowWidth <= 1020 && scrollPosition > 200){
+        setShowChevron(true);
+      } else if (scrollPosition < 200){
+        setShowChevron(false);
+      }
+    })
+  })
+
   return (
-    <div className="container"> 
+    <div id="container" className="container"> 
+
+      <Header />
 
       <model-viewer src={Foot}
         ar
         auto-rotate 
-        controls
         camera-controls
         background-color="#70BCD1"
         shadow-intensity="1"
@@ -92,6 +109,8 @@ function App() {
       </model-viewer>
 
       <Conditions view={currentView} />
+
+      {showChevron && <Chevron />}
 
     </div>
   );

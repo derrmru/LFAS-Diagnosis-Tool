@@ -2,7 +2,7 @@ import React from "react";
 
 export const openC = {
     "Open a Condition": {
-        title: "Hi there!",
+        title: "Welcome!",
         description: 
         <>
             <p>Interact with our model and select the area of the foot or ankle you are experiencing symptoms.</p>

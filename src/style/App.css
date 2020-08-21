@@ -1,21 +1,107 @@
 @import url(https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap);
 
-html {
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-}
-
 body {
-  margin: 1em;
   padding: 0;
   color: white;
   font-family: 'Playfair Display', serif;
   background-color: #ffffff;
+  position: relative;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+
+.chevron {
+  position: fixed;
+  margin: 0;
+  bottom: 30px;
+  right: 30px;
+  height: 40px;
+  width: 40px;
+  font-size: 50px;
+  background-color: #1d355ee5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/**
+*HEADER ********************
+*/
+
+.header {
+  width: 100%;
+  height: 15vh;
+  margin: 0 0 5vh 0;
+  padding: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1000;
+  top: 0px;
+  color: #1d355e;
+  background-color: #ebebeb;
+  -webkit-box-shadow: 0px 14px 20px 0px rgba(29,53,94,0.6);
+  -moz-box-shadow: 0px 14px 20px 0px rgba(29,53,94,0.6);
+  box-shadow: 0px 14px 20px 0px rgba(29,53,94,0.6);
+}
+
+.header-logo {
+  height: 11vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2vh;
+  left: 3vh;
+}
+
+.contact-container {
+  height: 15vh;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.contact-container a {
+  color: #1d355e;
+}
+
+.contact-container a:hover {
+  color: white;
+}
+
+.contact {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 10px;
+  cursor: pointer;
+  width: 120px;
+  transition: 1.2s;
+  background-color: #ebebeb;
+}
+
+.contact:hover {
+  width: 380px;
+  background-color: #1d355ee5;
+  white-space: nowrap;
+}
+
+/**
+* MOBILE MENU*******************
+*/
+
+.mobile-menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-contact-container {
+  display: none;
 }
 
 /**
@@ -27,6 +113,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
 }
 
 #card {
@@ -41,8 +129,8 @@ a {
 
 model-viewer {
   width: 60%;
-  height: 90vh;
-  margin: 0 15px 0 0;
+  height: 74vh;
+  margin: 0 2vh 0 0;
   border: 4px solid #248ec2;
   background-color: #ebebeb;
   -webkit-box-shadow: 10px 10px 20px 0px rgba(29,53,94,1);
@@ -78,8 +166,8 @@ model-viewer {
 .conditions {
   width: 35%;
   min-width: 350px;
-  height: 90vh;
-  min-height: 90vh;
+  height: 74vh;
+  min-height: 74vh;
   overflow: scroll;
   border: 4px solid #248ec2;
   float: left;
@@ -187,6 +275,10 @@ button[slot="hotspot-sole"]{
   padding: 10px;
   width: 200px;
   text-align: left;
+}
+
+#annotation a {
+  color: white;
 }
 /* This keeps child nodes hidden while the element loads */
 :not(:defined) > * {

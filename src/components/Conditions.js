@@ -6,7 +6,7 @@ const Conditions = (props) => {
         <div id="conditions" className="conditions">
             <div className="conditions-header">
                 <h1>London Foot & Ankle Surgery</h1>
-                <h2>Conditions</h2>
+                <h2>Indentify Your Foot Condition</h2>
             </div>
 
             <div className="condition-container">
