@@ -16,7 +16,7 @@ export const bigToeC = {
         description: 
             <>
                 <div className="t-image-border">
-                    <img className="title-image" src={require('./2d-images/Ingrowing-Toenail.jpg')} alt="ingrown toenail images" />
+                    <img className="title-image" src={require('../2d-images/Ingrowing-Toenail.jpg')} alt="ingrown toenail images" />
                 </div>
                 <p>Ingrown toenails develop when the sides of the nail cut and pierce into the surrounding skin. This can cause pain, redness, swelling and possibly an infection.</p>
                 <p>Common causes of an ingrown can include damage to the nail following a sports injury, an object dropping on the nail or alternatively inappropriate cutting of the nail.</p>
@@ -45,7 +45,7 @@ export const bigToeC = {
                 <p>A Bunion, also known as Hallux Valgus, is a common foot condition involving the development of a bony growth below the base of the big toe.</p>
                 <p>A Bunion is a progressive condition, meaning that without intervention it will get worse over time. As the Bunion ‘bump’ grows, the deformity can become increasingly painful when walking or running, cause footwear fitting issues and develop redness and swelling from excessive rubbing in footwear. The position of the big toe will also shift over time, often overlapping the lesser toes, which can cause further pain and discomfort. These symptoms can become quite severe, affecting daily activities and having a significant impact on quality of life.</p>
                 <div style={{textAlign: "center"}}>
-                    <img className="title-image" srcSet={require('./2d-images/Bunion-Severity-Progression.png')} alt="Bunion Severity Diagram" />
+                    <img className="title-image" srcSet={require('../2d-images/Bunion-Severity-Progression.png')} alt="Bunion Severity Diagram" />
                 </div>
                 
                 <h4>Causes of Bunions</h4>
@@ -75,7 +75,7 @@ export const ankleC = {
         description: 
             <>
                 <div className="t-image-border">
-                    <img className="title-image" src={require('./2d-images/Ankle-Sprain.jpg')} alt="Ankle Sprain anatomy diagram" />
+                    <img className="title-image" src={require('../2d-images/Ankle-Sprain.jpg')} alt="Ankle Sprain anatomy diagram" />
                 </div>
                 <p>Acute and chronic foot and ankle injuries are common amongst people of all age groups and activity levels. It is particularly common in people who are active in sports, whether it be recreational or professional. We specialise in accurate diagnosis of your injury with the help of our podiatric, physio and radiology team.</p>
                 <p>An indication of a foot or ankle issue can include:</p>
@@ -109,7 +109,7 @@ export const ankleC = {
         description: 
         <>
             <div className="t-image-border">
-                <img className="title-image" src={require('./2d-images/Ankle-Arthritis.jpg')} alt="Ankle Arthritis anatomy diagram" />
+                <img className="title-image" src={require('../2d-images/Ankle-Arthritis.jpg')} alt="Ankle Arthritis anatomy diagram" />
             </div>
             <p>Ankle arthritis causes pain and stiffness in the joint. There are three bones in the ankle which are affected, the tibia, the fibula and the talus.</p>
             <h4>Symptoms of Ankle Arthritis can include:</h4>
@@ -151,7 +151,7 @@ export const heelC = {
         description: 
         <>
             <div className="t-image-border">
-                <img className="title-image" src={require('./2d-images/Plantar-Fasciitis.jpg')} alt="Plantar Fasciitis anatomy diagram" />
+                <img className="title-image" src={require('../2d-images/Plantar-Fasciitis.jpg')} alt="Plantar Fasciitis anatomy diagram" />
             </div>
             <p>Our central London clinic is home to consultants who specialise in treating heel pain. There are many causes of heel pain and a range of diagnostic tools are used to evaluate the condition and recommend the most appropriate treatment plan.</p>
             <p>Plantar fasciitis is the most common cause of heel pain. This condition typically manifests as pain first thing in the morning when you get out of bed or from resting on a chair. The most common area of pain is on the inner side of the heel and can be described as sharp, burning and throbbing in nature. It typically gets better after the morning and returns towards the end of the day.</p>
@@ -188,7 +188,7 @@ export const achillesC = {
         description: 
             <>
             <div className="t-image-border">
-                <img className="title-image" src={require('./2d-images/Achilles-Tendinopathy.jpg')} alt="Achilles Tendinopathy anatomy diagram" />
+                <img className="title-image" src={require('../2d-images/Achilles-Tendinopathy.jpg')} alt="Achilles Tendinopathy anatomy diagram" />
             </div>
             <p>The Achilles tendon is a band of tissue that connects the gastrocnemius and soleus muscle (calf muscle) to the heel bone. Injuries are common due to the intense pressure it undergoes during activities. Symptoms that can arise from overuse are broadly known as achilles tendonitis.</p>
             <p>Symptoms may include:</p>
@@ -219,7 +219,7 @@ export const soleC = {
         description: 
         <>
             <div className="t-image-border">
-                <img className="title-image" src={require('./2d-images/Flat-Foot.jpg')} alt="Flat Foot anatomy diagram" />
+                <img className="title-image" src={require('../2d-images/Flat-Foot.jpg')} alt="Flat Foot anatomy diagram" />
             </div>
             <p>Flat Foot is where the arch of your foot is collapsed, this is also known as a pes planus foot type. It is common in children as they may still be developing their arches. Flat foot can also be broadly characterised by flexible and rigid flat foot deformity. Not all flat feet are problematic or considered pathological.</p>
             <p>The arch can also drop when you are older due to weakening of tendons.</p>

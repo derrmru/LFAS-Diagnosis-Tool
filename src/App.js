@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Foot from './3d-images/3d-Foot-3.glb';
 import Conditions from './components/Conditions';
 import Button from './components/Button';
-import { openC, ankleC, bigToeC, heelC, achillesC, soleC } from './ConditionsObject';
+import { openC, ankleC, bigToeC, heelC, achillesC, soleC } from './objects/ConditionsObject';
 import './style/App.css';
 import './style/MediaQueries.css';
 
