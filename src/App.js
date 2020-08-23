@@ -8,7 +8,7 @@ import { openC, ankleC, bigToeC, heelC, achillesC, soleC } from './objects/Condi
 import './style/App.css';
 import './style/MediaQueries.css';
 
-function App() {
+const App = () => {
   const [start, setStart] = useState(false);
   const [annotation, setAnnotation] = useState("");
   const [currentView, setCurrentView] = useState(openC["Open a Condition"]);

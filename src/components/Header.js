@@ -20,7 +20,7 @@ let Header = () => {
 
             {
             toggleMenu && 
-                <div id={() => toggleMenu ? "lower" : "raise"} className="mobile-contact-container">
+                <div className="mobile-contact-container fade-in">
                     <HeaderItems />
                 </div>
             }   
