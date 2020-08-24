@@ -16,7 +16,7 @@ export const bigToeC = {
         description: 
             <>
                 <div className="t-image-border">
-                    <img className="title-image" src={require('../2d-images/Ingrowing-Toenail.jpg')} alt="ingrown toenail images" />
+                    <img className="title-image" src={require('../2d-images/Ingrowing-Toenail.jpg')} alt="Ingrown Toenail Diagram" />
                 </div>
                 <p>Ingrown toenails develop when the sides of the nail cut and pierce into the surrounding skin. This can cause pain, redness, swelling and possibly an infection.</p>
                 <p>Common causes of an ingrown can include damage to the nail following a sports injury, an object dropping on the nail or alternatively inappropriate cutting of the nail.</p>
@@ -66,8 +66,91 @@ export const bigToeC = {
                 </ul>
                 <p>The above measures can help treat symptoms and prevent progression of the deformity. However, currently the only way to fully resolve the Bunion is with surgery.</p>
             </>
+    },
+    "Hallux Rigidus": {
+        title: "Hallux Rigidus",
+        description: 
+        <>
+            <h3>Hallux Rigidus – Stiff Big Toes</h3>
+            <div style={{textAlign: "center"}}>
+                    <img className="title-image" srcSet={require('../2d-images/Hallux Rigidus.jpg')} alt="Hallux Rigidus Diagram" />
+            </div>
+            <p>Arthritis to the toe causes pain and stiffness to the joint. It may feel like the joint is clicking or popping. Two conditions associated with big toe arthritis are hallux limitus, where the big toe is unable to bend but still has some movement, and hallux rigidus, where the joint is rigid or unable to move at all.</p>
+            <p>Big toe arthritis can occur after:</p>
+            <ul>
+                <li>An injury, where you may develop Osteonecrosis, which can damage the blood flow to a portion of bone and cartilage.</li>
+                <li>Rheumatoid disease, which causes joint inflammation and damage to cartilage</li>
+                <li>Deterioration of cartilage due to age</li>
+            </ul>
+            <p>Resting, Icing, Compressing and Elevating (RICE) can assist with a flare up. If symptoms persist then you should arrange an appointment with a specialist who may refer for an X-ray to assess the issue.</p>
+            <h3>Treatments may include:</h3>
+            <h4>Physiotherapy and Strengthening</h4>
+            <p>Your specialist may provide you with physiotherapy exercises to assist with joint movement, alongside deep tissue massage. These can help delay joint deterioration, reduce symptoms and improve strength and range of motion.</p>
+            <h4>Orthotics</h4>
+            <p>Following a gait analysis, custom orthotics may be suggested to help support the area around your big toe, this can reduce the strain, and therefore pain, that can occur in the joint.</p>
+            <h4>Steroid Injections</h4>
+            <p>If pain persists in your ankle then your specialist may advise on a steroid injection.</p>
+            <p>Typically the choice of substance for a steroid injection will be Cortisone, the steroid can decrease inflammation as it acts like a hormone that stops inflammation. Usually a lower dose of steroid is administered to provide relief from pain and stiffness, but a higher dose can be administered if you have a severe flare up of arthritis.</p>
+            <p>We may also choose to inject Hyaluronic Acid or Platelet Rich Plasma to help healing.</p>
+            <h4>Manipulation of the Joint under Anaesthesia (MUA)</h4>
+            <p>Manipulation of the joint is typically an outpatient procedure which can be performed under local anaesthesia. There are however some cases where your specialist may instead suggest arranging under IV sedation or general anesthesia in a hospital setting.</p>
+            <p>MUA may be suggested if you have had a previous injury, this will help realign the joint and improve motion.</p>
+            <h4>Surgical Management</h4>
+            <p>If symptoms persist then surgery may be suggested. Please click below to find out more on common surgical options.</p>
+        </>
     }
 };
+
+export const toesC = {
+    "Hammertoe": {
+        title: "Hammertoe",
+        description: 
+        <>
+            <div style={{textAlign: "center"}}>
+                    <img className="title-image" srcSet={require('../2d-images/Hammertoe.jpg')} alt="Hammertoe Diagram" />
+            </div>
+            <h4>Hammertoe, Claw Toe and Mallet Toe Introduction</h4>
+            <p>Hammertoe, mallet toe and claw toe describe an issue that develops where the toes are bent. This can create discomfort and friction against footwear, which can lead to additional issues, such as corns, they often coexist with bunions and can often be caused by them.</p>
+            <p>The difference between these are:</p>
+            <p>Hammertoe – The toe bends down towards the floor from the middle joint, this then causes the middle toe joint to rise up. This most commonly affects the second toe, but can affect the other lesser toes also. It is less common in the fifth toe.</p>
+            <p>Claw toe – The toe bends up where the toes and the foot meet and bend down at the middle joint. This often affects all four of the lesser toes.</p>
+            <p>Mallet toe – The toe bends down at the joint closest to the end of the toe. It most commonly affects the second and third toes but can affect other lesser toes.</p>
+            <h4>Hammertoe, Claw Toe and Mallet Toe Symptoms</h4>
+            <p>The toe issues can create pressure on the foot when wearing shoes and cause discomfort when walking. The joints themselves can be arthritic and painful.</p>
+            <h4>Hammertoe, Claw Toe and Mallet Toe Causes</h4>
+            <p>Toe issues occur due to an imbalance in the muscles, tendons or ligaments that normally hold the toe straight. These may be the result of another problem, such as Bunions.</p>
+            <p>The type of shoe that you wear, your foot type or injury can exacerbate and contribute to the development of these issues.</p>
+            <h4>Hammertoe, Claw Toe and Mallet Toe Treatment</h4>
+            <p>Unless the problem has progressed to a stage that requires toe surgery, simple conservative measures are recommended in the first instance. These might include:</p>
+            <ul>
+                <li>Anti-inflammatory Medicines: To relieve pain and decrease inflammation</li>
+                <li>Injections: A cortisone injection can further help relieve pain and inflammation in more severe cases</li>
+                <li>Physical Therapy: Physiotherapy can be useful to stretch tight muscles and tendons that are causing the hammertoe</li>
+                <li>Bespoke Orthotics: A biomechanical specialist can design and manufacture a custom insole to resolve discomfort and prevent progression of the deformity</li>
+                <li>Toe Splints or Pads: Splints and pads can be helpful to realign the affected toe and prevent discomfort when walking in footwear</li>
+            </ul>
+            <h4>Toe Surgery</h4>
+            <p>If more conservative measures are not successful in eradicating symptoms then surgery may become the recommended treatment. </p>
+        </>
+    },
+    "Tailor's Bunion": {
+        title: "Tailor's Bunion",
+        description: 
+        <>
+            <div style={{textAlign: "center"}}>
+                    <img className="title-image" srcSet={require('../2d-images/Tailors-Bunion.jpg')} alt="Tailors Bunion Diagram" />
+            </div>
+            <p>A Tailor’s Bunion, or Bunionette, is a prominence of the bone just below the base of the little toe.</p>
+            <p>A Bunionette can develop over time, where the prominence becomes larger and slowly pushes the little toe in towards the other toes. The underlying cause may well be splaying of the metatarsal bones or outward bowing of the fifth metatarsal bone. This can cause the metatarsal head to be irritated during activity or in footwear and result in a redness, swelling and pain.</p>
+            <h3>Treatment</h3>
+            <p>A Tailor’s Bunion can be managed with orthotics (shoe inserts) that can cushion the area and redistribute pressure to relieve symptoms. This treatment is often more effective with bespoke orthotics, which are moulded and designed to your particular foot type.</p>
+            <p>Wearing appropriate footwear that has plenty of space in the toe boxes is also helpful, alongside over-the-counter pain medication to manage the pain.</p>
+            <p>A steroid injection in to the bursitis that may develop can be helpful.</p>
+            <h3>Tailor’s Bunionette Surgery</h3>
+            <p>If more conservative measures don’t resolve symptoms then surgery may be a sensible treatment option.</p>
+        </>
+    }
+}
 
 export const ankleC = {
     "Sprain": {
@@ -243,6 +326,31 @@ export const soleC = {
             <p>In more severe cases of flat feet your specialist may instead advise on a brace.</p>
             <h4>Surgical Management</h4>
             <p>If symptoms persist then your specialist may advise on surgery. Please click here to find out more.</p>
+        </>
+    },
+    "Verrucae": {
+        title: "Verrucae",
+        description: 
+        <>
+            <div className="t-image-border">
+                <img className="title-image" src={require('../2d-images/Verruca.jpg')} alt="Verruca diagram" />
+            </div>
+            <h4>Verrucae Overview</h4>
+            <p>A Verruca, also known as a Plantar Wart, is a lump of tough skin that grows on the sole of the foot. They are recognizable by an area of hardened skin, often with a small black dot beneath the surface.</p>
+            <h4>Verrucae Symptoms and Diagnosis</h4>
+            <p>Verrucae can be painful, especially when walking; the sensation is often compared to walking on a needle.</p>
+            <h4>Verrucae Cause</h4>
+            <p>Verrucae are caused by a virus, known as the Human Papilloma Virus (HPV), which is contagious via direct contact.</p>
+            <h4>Verrucae Treatment and Prevention</h4>
+            <p>Verrucae will eventually go away by themselves, as your body naturally fights the virus that causes them. However, this can take a long time, sometimes years. As a result, treatment is often sought to quickly resolve the problem.</p>
+            <h4>Treatment</h4>
+            <p>Verrucae can often be treated with over-the-counter creams and ointments that can be obtained from the pharmacy.</p>
+            <p>If over-the-counter medicines fail to resolve the problem, then other treatments can be tried, including:</p>
+            <ul>
+                <li>Cryotherapy – where the verruca are frozen off</li>
+                <li>Acid Treatments – where the verruca is burned off with an acid, such as Silver Nitrate</li>
+            </ul>
+            <p>If these kinds of measures fail to eradicate the verruca, then surgical removal may be recommended.</p>
         </>
     }
 }

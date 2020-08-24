@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Conditions from './components/Conditions';
 import Button from './components/Button';
 import Chevron from './components/Chevron';
-import { openC, ankleC, bigToeC, heelC, achillesC, soleC } from './objects/ConditionsObject';
+import { openC, ankleC, bigToeC, toesC, heelC, achillesC, soleC } from './objects/ConditionsObject';
 import './style/App.css';
 import './style/MediaQueries.css';
 
@@ -63,8 +63,8 @@ const App = () => {
 
         <Button 
           slot="hotspot-hallux"
-          position="-1.57 -1.32 9.01"
-          normal="0.78 0.35 0.52"
+          position="-2.4 -1.7 8.98"
+          normal="-0.14 -0.53 0.84"
           title="Big Toe"
           conditionObject={bigToeC}
           toggle={(e) => toggleAnnotation(e)}
@@ -73,8 +73,19 @@ const App = () => {
         />
 
         <Button 
+          slot="hotspot-toes"
+          position="-4.49 -1.72 7.48"
+          normal="-0.81 -0.07 0.58"
+          title="Lesser Toe"
+          conditionObject={toesC}
+          toggle={(e) => toggleAnnotation(e)}
+          toggleSetView={(f) => setCurrentView(f)}
+          annotation={annotation}
+        />
+
+        <Button 
           slot="hotspot-heel"
-          position="3.16 -2.16 -1.21"
+          position="3.16 -1.5 -1.21"
           normal="0.83 -0.18 -0.53"
           title="Heel"
           conditionObject={heelC}

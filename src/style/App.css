@@ -1,9 +1,13 @@
-@import url(https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap);
+/*@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');*/
+@font-face {
+  font-family: "Playfair";
+  src: url("../fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
 
 body {
   padding: 0;
   color: white;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair', serif;
   background-color: #ffffff;
   position: relative;
 }
@@ -107,6 +111,19 @@ a {
 /**
 *OVERALL VIEW PORTS
 */
+
+#lazy-load-poster {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-image: url('../2d-images/Poster.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .container {
   width: 100%;
@@ -235,6 +252,14 @@ button[slot="hotspot-ankle"]{
 }
 
 button[slot="hotspot-hallux"]{
+  --min-hotspot-opacity: 0;
+  background-image: radial-gradient(rgba(255, 0, 0, 0.267) 0.1%, rgba(255, 255, 255, 0)99%);
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+button[slot="hotspot-toes"]{
   --min-hotspot-opacity: 0;
   background-image: radial-gradient(rgba(255, 0, 0, 0.267) 0.1%, rgba(255, 255, 255, 0)99%);
   width: 30px;
