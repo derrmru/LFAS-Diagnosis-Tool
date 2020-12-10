@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import LogoImage from '../2d-images/Logo.svg';
 import HeaderItems from "./HeaderItems";
 
 let Header = () => {
@@ -6,7 +7,7 @@ let Header = () => {
 
     return (
         <div className="header">
-            <img src={require('../2d-images/Logo.svg')} className="header-logo" alt="Logo for the London Foot & Ankle Surgery" />
+            <img src={LogoImage} className="header-logo" alt="Logo for the London Foot & Ankle Surgery" />
             
             <div className="contact-container">
                 <HeaderItems />

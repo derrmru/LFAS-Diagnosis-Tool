@@ -1,4 +1,15 @@
 import React from "react";
+import IGTN from '../2d-images/Ingrowing-Toenail.jpg';
+import bImg from '../2d-images/Bunion-Severity-Progression.png';
+import hrImg from '../2d-images/Hallux Rigidus.jpg';
+import hammerImg from '../2d-images/Hammertoe.jpg';
+import tailorsImg from '../2d-images/Tailors-Bunion.jpg';
+import ankle from '../2d-images/Ankle-Sprain.jpg';
+import ankleAr from '../2d-images/Ankle-Arthritis.jpg';
+import pfImg from '../2d-images/Plantar-Fasciitis.jpg';
+import achillesImg from '../2d-images/Achilles-Tendinopathy.jpg';
+import flatImg from '../2d-images/Flat-Foot.jpg';
+import verImg from '../2d-images/Verruca.jpg';
 
 export const openC = {
     "Open a Condition": {
@@ -16,7 +27,7 @@ export const bigToeC = {
         description: 
             <>
                 <div className="t-image-border">
-                    <img className="title-image" src={require('../2d-images/Ingrowing-Toenail.jpg')} alt="Ingrown Toenail Diagram" />
+                    <img className="title-image" src={IGTN} alt="Ingrown Toenail Diagram" />
                 </div>
                 <p>Ingrown toenails develop when the sides of the nail cut and pierce into the surrounding skin. This can cause pain, redness, swelling and possibly an infection.</p>
                 <p>Common causes of an ingrown can include damage to the nail following a sports injury, an object dropping on the nail or alternatively inappropriate cutting of the nail.</p>
@@ -45,7 +56,7 @@ export const bigToeC = {
                 <p>A Bunion, also known as Hallux Valgus, is a common foot condition involving the development of a bony growth below the base of the big toe.</p>
                 <p>A Bunion is a progressive condition, meaning that without intervention it will get worse over time. As the Bunion ‘bump’ grows, the deformity can become increasingly painful when walking or running, cause footwear fitting issues and develop redness and swelling from excessive rubbing in footwear. The position of the big toe will also shift over time, often overlapping the lesser toes, which can cause further pain and discomfort. These symptoms can become quite severe, affecting daily activities and having a significant impact on quality of life.</p>
                 <div style={{textAlign: "center"}}>
-                    <img className="title-image" srcSet={require('../2d-images/Bunion-Severity-Progression.png')} alt="Bunion Severity Diagram" />
+                    <img className="title-image" srcSet={bImg} alt="Bunion Severity Diagram" />
                 </div>
                 
                 <h4>Causes of Bunions</h4>
@@ -73,7 +84,7 @@ export const bigToeC = {
         <>
             <h3>Hallux Rigidus – Stiff Big Toes</h3>
             <div style={{textAlign: "center"}}>
-                    <img className="title-image" srcSet={require('../2d-images/Hallux Rigidus.jpg')} alt="Hallux Rigidus Diagram" />
+                    <img className="title-image" srcSet={hrImg} alt="Hallux Rigidus Diagram" />
             </div>
             <p>Arthritis to the toe causes pain and stiffness to the joint. It may feel like the joint is clicking or popping. Two conditions associated with big toe arthritis are hallux limitus, where the big toe is unable to bend but still has some movement, and hallux rigidus, where the joint is rigid or unable to move at all.</p>
             <p>Big toe arthritis can occur after:</p>
@@ -107,7 +118,7 @@ export const toesC = {
         description: 
         <>
             <div style={{textAlign: "center"}}>
-                    <img className="title-image" srcSet={require('../2d-images/Hammertoe.jpg')} alt="Hammertoe Diagram" />
+                    <img className="title-image" srcSet={hammerImg} alt="Hammertoe Diagram" />
             </div>
             <h4>Hammertoe, Claw Toe and Mallet Toe Introduction</h4>
             <p>Hammertoe, mallet toe and claw toe describe an issue that develops where the toes are bent. This can create discomfort and friction against footwear, which can lead to additional issues, such as corns, they often coexist with bunions and can often be caused by them.</p>
@@ -138,7 +149,7 @@ export const toesC = {
         description: 
         <>
             <div style={{textAlign: "center"}}>
-                    <img className="title-image" srcSet={require('../2d-images/Tailors-Bunion.jpg')} alt="Tailors Bunion Diagram" />
+                    <img className="title-image" srcSet={tailorsImg} alt="Tailors Bunion Diagram" />
             </div>
             <p>A Tailor’s Bunion, or Bunionette, is a prominence of the bone just below the base of the little toe.</p>
             <p>A Bunionette can develop over time, where the prominence becomes larger and slowly pushes the little toe in towards the other toes. The underlying cause may well be splaying of the metatarsal bones or outward bowing of the fifth metatarsal bone. This can cause the metatarsal head to be irritated during activity or in footwear and result in a redness, swelling and pain.</p>
@@ -158,7 +169,7 @@ export const ankleC = {
         description: 
             <>
                 <div className="t-image-border">
-                    <img className="title-image" src={require('../2d-images/Ankle-Sprain.jpg')} alt="Ankle Sprain anatomy diagram" />
+                    <img className="title-image" src={ankle} alt="Ankle Sprain anatomy diagram" />
                 </div>
                 <p>Acute and chronic foot and ankle injuries are common amongst people of all age groups and activity levels. It is particularly common in people who are active in sports, whether it be recreational or professional. We specialise in accurate diagnosis of your injury with the help of our podiatric, physio and radiology team.</p>
                 <p>An indication of a foot or ankle issue can include:</p>
@@ -192,7 +203,7 @@ export const ankleC = {
         description: 
         <>
             <div className="t-image-border">
-                <img className="title-image" src={require('../2d-images/Ankle-Arthritis.jpg')} alt="Ankle Arthritis anatomy diagram" />
+                <img className="title-image" src={ankleAr} alt="Ankle Arthritis anatomy diagram" />
             </div>
             <p>Ankle arthritis causes pain and stiffness in the joint. There are three bones in the ankle which are affected, the tibia, the fibula and the talus.</p>
             <h4>Symptoms of Ankle Arthritis can include:</h4>
@@ -234,7 +245,7 @@ export const heelC = {
         description: 
         <>
             <div className="t-image-border">
-                <img className="title-image" src={require('../2d-images/Plantar-Fasciitis.jpg')} alt="Plantar Fasciitis anatomy diagram" />
+                <img className="title-image" src={pfImg} alt="Plantar Fasciitis anatomy diagram" />
             </div>
             <p>Our central London clinic is home to consultants who specialise in treating heel pain. There are many causes of heel pain and a range of diagnostic tools are used to evaluate the condition and recommend the most appropriate treatment plan.</p>
             <p>Plantar fasciitis is the most common cause of heel pain. This condition typically manifests as pain first thing in the morning when you get out of bed or from resting on a chair. The most common area of pain is on the inner side of the heel and can be described as sharp, burning and throbbing in nature. It typically gets better after the morning and returns towards the end of the day.</p>
@@ -271,7 +282,7 @@ export const achillesC = {
         description: 
             <>
             <div className="t-image-border">
-                <img className="title-image" src={require('../2d-images/Achilles-Tendinopathy.jpg')} alt="Achilles Tendinopathy anatomy diagram" />
+                <img className="title-image" src={achillesImg} alt="Achilles Tendinopathy anatomy diagram" />
             </div>
             <p>The Achilles tendon is a band of tissue that connects the gastrocnemius and soleus muscle (calf muscle) to the heel bone. Injuries are common due to the intense pressure it undergoes during activities. Symptoms that can arise from overuse are broadly known as achilles tendonitis.</p>
             <p>Symptoms may include:</p>
@@ -302,7 +313,7 @@ export const soleC = {
         description: 
         <>
             <div className="t-image-border">
-                <img className="title-image" src={require('../2d-images/Flat-Foot.jpg')} alt="Flat Foot anatomy diagram" />
+                <img className="title-image" src={flatImg} alt="Flat Foot anatomy diagram" />
             </div>
             <p>Flat Foot is where the arch of your foot is collapsed, this is also known as a pes planus foot type. It is common in children as they may still be developing their arches. Flat foot can also be broadly characterised by flexible and rigid flat foot deformity. Not all flat feet are problematic or considered pathological.</p>
             <p>The arch can also drop when you are older due to weakening of tendons.</p>
@@ -333,7 +344,7 @@ export const soleC = {
         description: 
         <>
             <div className="t-image-border">
-                <img className="title-image" src={require('../2d-images/Verruca.jpg')} alt="Verruca diagram" />
+                <img className="title-image" src={verImg} alt="Verruca diagram" />
             </div>
             <h4>Verrucae Overview</h4>
             <p>A Verruca, also known as a Plantar Wart, is a lump of tough skin that grows on the sole of the foot. They are recognizable by an area of hardened skin, often with a small black dot beneath the surface.</p>

@@ -14,12 +14,22 @@
         height: auto;
     }
 
+    .conditions-header {
+        height: auto;
+    }
+
     .conditions h3 {
         text-align: center;
         font-size: 30px;
     }
 
     .condition-container {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .condition-paragraphs {
         width: 70%;
         margin: auto;
     }
@@ -111,7 +121,13 @@
     }
 
     .condition-container {
-        width: 90%;
+        width: 100%;
+        margin: auto;
+        padding: 15px 0;
+    }
+
+    .condition-paragraphs {
+        width: 70%;
         margin: auto;
     }
 
